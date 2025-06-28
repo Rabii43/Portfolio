@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="w-40 h-40 rounded-full bg-white/20 backdrop-blur-sm mx-auto mb-6 flex items-center justify-center border-4 border-white/30">
             <div className="w-32 h-32 rounded-full bg-white/30 flex items-center justify-center">
          <img
-              src="../../assets/images/terresRabie.png" 
+              src="/images/terresRabie.png"
               alt="RT"
               className="w-full h-full object-cover rounded-full"
             />
