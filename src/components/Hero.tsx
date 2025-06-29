@@ -21,7 +21,7 @@ const Hero = () => {
          <img
               src="/images/terresRabie.png"
               alt="RT"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-unset rounded-full"
             />
             </div>
           </div>
