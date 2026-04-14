@@ -18,7 +18,7 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Développeur Full Stack Senior avec plus de 3 ans d'expérience dans la conception et le développement
+              Développeur Full Stack Senior avec plus de 4 ans d'expérience dans la conception et le développement
               d'applications web et de solutions fintech. Expert Angular, spécialisé dans l'intégration d'APIs de
               paiement sécurisées (Stripe, PayPal, Flouci, Konnect) et les architectures microservices scalables.
             </p>

@@ -32,26 +32,25 @@ const Hero = () => {
         </h1>
 
         <p className="text-2xl md:text-3xl mb-4 text-blue-200 animate-fade-in-delay font-semibold">
-          Développeur Full Stack Senior
+          Développeur Full-Stack Senior
         </p>
 
         <p className="text-lg md:text-xl mb-4 text-teal-200 animate-fade-in-delay font-medium">
-          Expert Angular &bull; APIs de Paiement &bull; Architecture Fintech
+          Expert PHP Symfony &bull; Angular &bull; Architecture Distribuée
         </p>
 
         <p className="text-base mb-8 text-gray-200 max-w-3xl mx-auto animate-fade-in-delay-2 leading-relaxed">
-          Développeur Senior avec plus de 3 ans d'expérience, spécialisé en Angular, intégration d'APIs de paiement
-          (Stripe, PayPal, Flouci, Konnect) et architectures microservices scalables. Je conçois des solutions
-          fintech robustes, sécurisées et hautement performantes.
+          Plus de 4 ans d'expérience dans la conception et le développement de solutions web hautement scalables et sécurisées.
+          Spécialisé en architectures distribuées, je garantis des performances optimales et une intégrité totale des données sensibles.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mb-8 animate-fade-in-delay-2">
-          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Angular 16+</span>
-          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Stripe API</span>
-          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">PayPal SDK</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Angular</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Symfony 6</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">PHP 8</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">TypeScript</span>
-          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Microservices</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Node.js</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Docker</span>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 mb-10 animate-fade-in-delay-2">

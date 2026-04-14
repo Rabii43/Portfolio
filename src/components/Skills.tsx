@@ -8,18 +8,18 @@ const Skills = () => {
   });
 
   const skills = [
-    { name: 'Angular', level: 97, color: 'bg-red-500' },
-    { name: 'TypeScript', level: 95, color: 'bg-blue-600' },
-    { name: 'Symfony', level: 93, color: 'bg-gray-800' },
+    { name: 'Angular', level: 70, color: 'bg-red-500' },
+    { name: 'TypeScript', level: 80, color: 'bg-blue-600' },
+    { name: 'Symfony', level: 75, color: 'bg-gray-800' },
     { name: 'PHP', level: 90, color: 'bg-blue-500' },
-    { name: 'Stripe API', level: 92, color: 'bg-teal-500' },
-    { name: 'PayPal SDK', level: 88, color: 'bg-blue-700' },
-    { name: 'Flouci / Konnect', level: 85, color: 'bg-orange-500' },
-    { name: 'Vue.js', level: 88, color: 'bg-green-500' },
+    { name: 'Stripe API', level: 80, color: 'bg-teal-500' },
+    { name: 'PayPal SDK', level: 80, color: 'bg-blue-700' },
+    { name: 'Flouci / Konnect', level: 90, color: 'bg-orange-500' },
+    { name: 'Vue.js', level: 60, color: 'bg-green-500' },
     { name: 'Nuxt.js', level: 85, color: 'bg-green-600' },
-    { name: 'Node.js', level: 88, color: 'bg-green-700' },
+    { name: 'Node.js', level: 70, color: 'bg-green-700' },
     { name: 'HTML/CSS', level: 95, color: 'bg-orange-400' },
-    { name: 'SCSS', level: 88, color: 'bg-pink-500' },
+    { name: 'SCSS', level: 95, color: 'bg-pink-500' },
   ];
 
   const paymentApis = [
