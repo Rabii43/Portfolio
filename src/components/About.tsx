@@ -18,38 +18,37 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Développeur Full Stack Senior avec plus de 4 ans d'expérience dans la conception et le développement
-              d'applications web et de solutions fintech. Expert Angular, spécialisé dans l'intégration d'APIs de
-              paiement sécurisées (Stripe, PayPal, Flouci, Konnect) et les architectures microservices scalables.
+              Développeur Full-Stack Senior avec plus de 4 ans d'expertise dans la conception et le développement
+              d'applications web critiques. Expert PHP Symfony et Angular, spécialisé dans les architectures modernes
+              et les passerelles de paiement sécurisées.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Passionné par les technologies fintech et les systèmes de paiement, je possède une expertise
-                approfondie dans la conception d'architectures robustes et sécurisées. Ma maîtrise d'Angular
-                combinée à une forte connaissance des standards PCI-DSS et des protocoles de sécurité des
-                transactions me permet de livrer des plateformes de paiement fiables à grande échelle.
+                Passionné par l'innovation technique, j'accompagne les entreprises dans la création de solutions
+                web hautement scalables et sécurisées. Mon expertise sur des projets à forte criticité me permet de
+                garantir des performances optimales et une intégrité totale des données sensibles.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Spécialisé en <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Symfony</strong>
-                et <strong>APIs de paiement</strong>, je maîtrise les méthodologies agiles et possède une expérience
-                confirmée dans l'encadrement d'équipes et la formation technique de développeurs.
+                Spécialisé en <strong>PHP Symfony</strong>, <strong>Angular</strong> et <strong>TypeScript</strong>,
+                je maîtrise les méthodologies agiles, les arquitectures distribuées et dispose d'une expertise
+                confirmée dans la migration d'applications monolithiques vers des solutions modernes.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">3+</div>
-                  <div className="text-sm text-gray-600">Années d'expérience</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">4+</div>
+                  <div className="text-sm text-gray-600">Années d'expertise</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-3xl font-bold text-green-600 mb-2">15+</div>
-                  <div className="text-sm text-gray-600">Projets réalisés</div>
+                  <div className="text-sm text-gray-600">Projets livrés</div>
                 </div>
                 <div className="text-center p-4 bg-teal-50 rounded-lg">
-                  <div className="text-3xl font-bold text-teal-600 mb-2">5+</div>
-                  <div className="text-sm text-gray-600">APIs paiement intégrées</div>
+                  <div className="text-3xl font-bold text-teal-600 mb-2">3+</div>
+                  <div className="text-sm text-gray-600">Passerelles paiement</div>
                 </div>
               </div>
 
@@ -96,11 +95,11 @@ const About = () => {
                   <div className="bg-red-500 p-3 rounded-lg mr-4">
                     <Code className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">Expert Angular Senior</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Expert PHP Symfony & Angular</h3>
                 </div>
                 <p className="text-gray-600">
-                  Maîtrise avancée d'Angular (v11 à v17) : composants standalone, signals,
-                  NgRx, RxJS, lazy loading et optimisation des performances.
+                  Expertise approfondie en développement backend avec Symfony 6 et PHP 8,
+                  combinée à une maîtrise avancée d'Angular (composants standalone, signals, RxJS).
                 </p>
               </div>
 
@@ -109,11 +108,11 @@ const About = () => {
                   <div className="bg-green-500 p-3 rounded-lg mr-4">
                     <Rocket className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">APIs de Paiement</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Passerelles de Paiement</h3>
                 </div>
                 <p className="text-gray-600">
-                  Intégration complète : Stripe (webhooks, abonnements, 3D Secure), PayPal,
-                  Flouci, Konnect et passerelles bancaires tunisiennes.
+                  Intégration de solutions de paiement sécurisées : Stripe (3D Secure, webhooks, abonnements),
+                  PayPal, Flouci et Konnect pour le marché tunisien.
                 </p>
               </div>
 
@@ -122,11 +121,11 @@ const About = () => {
                   <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <Users className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">Leadership Technique</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Architecture Moderne</h3>
                 </div>
                 <p className="text-gray-600">
-                  Expérience confirmée dans l'encadrement d'équipes, la formation technique
-                  et le mentorat de développeurs juniors et mid-level.
+                  Conception d'architectures scalables : migration monolithique vers microservices,
+                  cache distribué (Redis), message queue (RabbitMQ) et CI/CD.
                 </p>
               </div>
 
@@ -135,11 +134,11 @@ const About = () => {
                   <div className="bg-orange-500 p-3 rounded-lg mr-4">
                     <Award className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">Distinctions</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Distinctions Internationales</h3>
                 </div>
                 <p className="text-gray-600">
-                  2ème place mondiale en Chine et 1ère place nationale pour l'innovation
-                  dans l'éducation du futur.
+                  2ème place mondiale à la Compétition Mondiale de Design pour l'Éducation du Futur
+                  à Beijing, Chine (2019).
                 </p>
               </div>
             </div>

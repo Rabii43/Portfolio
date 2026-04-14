@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Localisation',
-      value: 'Morneg, Tunis',
+      value: 'Tunis, Tunisie',
       link: '#'
     },
     {

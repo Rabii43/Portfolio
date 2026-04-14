@@ -85,6 +85,15 @@ const Projects = () => {
       users: 'Paiements premium',
       github: '#',
       live: '#'
+    },
+    {
+      title: 'e-shkoon - Digitalisation Tunisienne',
+      description: 'Entreprise 100% tunisienne favorisant la digitalisation des marques tunisiennes à moindre coût. Plateforme e-commerce développée avec Node.js/Express backend, Angular frontend, intégrant Flouci pour paiements tunisiens. Assistance 24h/24, livraison à domicile, produits de qualité et prix imbattables.',
+      image: 'https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Node.js', 'Express.js', 'Angular', 'Flouci', 'E-commerce', 'MongoDB'],
+      users: 'Entreprise en croissance',
+      github: '#',
+      live: 'https://e-shkoon.com/'
     }
   ];
 
@@ -98,8 +107,8 @@ const Projects = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Projets Angular et intégrations d'APIs de paiement démontrant mon expertise fintech
-              et ma capacité à livrer des solutions sécurisées et performantes.
+              Projets Full-Stack démontrant mon expertise en PHP Symfony, Angular et architectures
+              modernes, incluant solutions fintech, e-commerce et digitalisation d'entreprises.
             </p>
           </div>
 
@@ -238,8 +247,8 @@ const Projects = () => {
                 <div className="text-sm text-blue-100">Projets Realises</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                <div className="text-3xl font-bold mb-2">6+</div>
-                <div className="text-sm text-blue-100">APIs Paiement Integrees</div>
+                <div className="text-3xl font-bold mb-2">3+</div>
+                <div className="text-sm text-blue-100">Passerelles Paiement</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
                 <div className="text-3xl font-bold mb-2">75%</div>

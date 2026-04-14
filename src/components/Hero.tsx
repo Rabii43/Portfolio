@@ -36,7 +36,7 @@ const Hero = () => {
         </p>
 
         <p className="text-lg md:text-xl mb-4 text-teal-200 animate-fade-in-delay font-medium">
-          Expert PHP Symfony &bull; Angular &bull; Architecture Distribuée
+          Expert PHP Symfony &bull; Angular &bull; Passerelles de Paiement
         </p>
 
         <p className="text-base mb-8 text-gray-200 max-w-3xl mx-auto animate-fade-in-delay-2 leading-relaxed">

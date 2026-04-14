@@ -8,35 +8,28 @@ const Skills = () => {
   });
 
   const skills = [
-    { name: 'Angular', level: 70, color: 'bg-red-500' },
-    { name: 'TypeScript', level: 80, color: 'bg-blue-600' },
-    { name: 'Symfony', level: 75, color: 'bg-gray-800' },
-    { name: 'PHP', level: 90, color: 'bg-blue-500' },
-    { name: 'Stripe API', level: 80, color: 'bg-teal-500' },
-    { name: 'PayPal SDK', level: 80, color: 'bg-blue-700' },
-    { name: 'Flouci / Konnect', level: 90, color: 'bg-orange-500' },
-    { name: 'Vue.js', level: 60, color: 'bg-green-500' },
-    { name: 'Nuxt.js', level: 85, color: 'bg-green-600' },
-    { name: 'Node.js', level: 70, color: 'bg-green-700' },
-    { name: 'HTML/CSS', level: 95, color: 'bg-orange-400' },
-    { name: 'SCSS', level: 95, color: 'bg-pink-500' },
+    { name: 'Angular', level: 90, color: 'bg-red-500' },
+    { name: 'Symfony', level: 93, color: 'bg-gray-800' },
+    { name: 'PHP', level: 95, color: 'bg-blue-500' },
+    { name: 'TypeScript', level: 88, color: 'bg-blue-600' },
+    { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
+    { name: 'Node.js', level: 85, color: 'bg-green-700' },
+    { name: 'Git', level: 92, color: 'bg-orange-600' },
+    { name: 'Docker', level: 85, color: 'bg-blue-400' },
+    { name: 'CI/CD', level: 80, color: 'bg-purple-500' },
   ];
 
-  const paymentApis = [
+  const paymentGateways = [
     { name: 'Stripe', detail: 'Webhooks, 3D Secure, Abonnements, Connect' },
     { name: 'PayPal', detail: 'SDK JS, REST API, Paiements récurrents' },
     { name: 'Flouci', detail: 'Intégration paiement tunisien, mobile money' },
     { name: 'Konnect', detail: 'Passerelle BIAT, virements, wallets' },
-    { name: 'Paymee', detail: 'Paiement en ligne Tunisie, callback sécurisé' },
-    { name: 'Monetbil', detail: 'Mobile money Afrique, USSD, Orange Money' },
   ];
 
   const tools = [
-    'Git & GitHub', 'Docker', 'CI/CD', 'Linux', 'NgRx', 'RxJS',
-    'RabbitMQ', 'Redis', 'WordPress', 'Drupal', 'Bootstrap',
-    'Vuetify', 'jQuery', 'Ajax', 'Twig',
-    'MySQL/PostgreSQL', 'Sass/SCSS', 'WooCommerce', 'API REST',
-    'PCI-DSS', 'OAuth 2.0', 'JWT', 'Webpack'
+    'RxJS', 'NgRx', 'RabbitMQ', 'Redis', 'API REST', 'JWT', 'OAuth 2.0',
+    'Express.js', 'PHPUnit', 'Jasmine', 'Karma', 'Postman', 'k6', 'JMeter', 'Lighthouse',
+    'MySQL', 'PostgreSQL', 'Linux', 'Twig', 'SCSS', 'Webpack', 'Vite'
   ];
 
   const languages = [
@@ -55,8 +48,8 @@ const Skills = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert Angular et APIs de paiement, avec un ensemble complet de technologies
-              pour créer des solutions fintech robustes et performantes.
+              Expert PHP Symfony et Angular avec une maîtrise approfondie des technologies
+              backend et frontend pour créer des applications web performantes et scalables.
             </p>
           </div>
 
@@ -85,9 +78,9 @@ const Skills = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-8">APIs de Paiement</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-8">Passerelles de Paiement</h3>
               <div className="space-y-3 mb-8">
-                {paymentApis.map((api, index) => (
+                {paymentGateways.map((api, index) => (
                   <div
                     key={api.name}
                     className={`bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 flex items-start ${
@@ -139,23 +132,23 @@ const Skills = () => {
                 <ul className="space-y-2 text-blue-100">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Architecture logicielle et code review
+                    Gestion du stress
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Leadership et mentorat technique
+                    Organisation et planification
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Sécurité des paiements (PCI-DSS)
+                    Adaptabilité aux contextes changeants
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Capacité d'adaptation et autonomie
+                    Autonomie dans la prise de décision
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Travail en équipe, organisation
+                    Esprit d'équipe et collaboration
                   </li>
                 </ul>
               </div>

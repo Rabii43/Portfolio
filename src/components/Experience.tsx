@@ -10,56 +10,52 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: 'Développeur Full Stack Senior',
+      title: 'Développeur Full Stack',
       company: 'Delta-Plus-Médical',
       location: 'Tunis, Tunisie',
       period: 'Nov. 2023 - Présent',
-      technologies: ['Angular 17', 'TypeScript', 'Symfony 6', 'PHP 8', 'Stripe', 'Konnect'],
+      technologies: ['Symfony 6', 'PHP 8', 'Angular', 'TypeScript', 'API REST', 'Redis', 'RabbitMQ'],
       description: [
-        'Architecture plateforme médicale : Conception système critique front Angular/back Symfony',
-        'Intégration paiement : Passerelle Konnect et Stripe pour facturation médicale sécurisée',
-        'APIs sécurisées : Développement REST garantissant l\'intégrité des données médicales',
-        'Migration technique : Transition stack moderne Angular 17 avec signals et standalone components',
-        'Sécurité PCI-DSS : Conformité et audit des flux de paiement sensibles'
+        'Conception d\'une plateforme médicale critique à forte charge',
+        'Développement d\'APIs sécurisées pour la protection des données médicales sensibles',
+        'Optimisation des performances applicatives avec cache Redis et queues RabbitMQ',
+        'Migration d\'une application monolithique vers une architecture moderne et scalable',
+        'Tests et qualité : PHPUnit, Jasmine, Karma, Postman'
       ],
       color: 'blue',
-      achievements: ['Migration Angular 17', 'Paiement médical sécurisé', 'Conformité PCI-DSS']
+      achievements: ['Plateforme médicale critique', 'APIs sécurisées', 'Architecture scalable']
     },
     {
-      title: 'Développeur Full Stack Senior',
+      title: 'Développeur Full Stack',
       company: 'ENW-Consulting',
       location: 'Centre Urbain Nord, Tunisie',
       period: 'Oct. 2022 - Sept. 2023',
-      technologies: ['Angular 16', 'Symfony 6', 'Stripe', 'PayPal', 'RabbitMQ', 'Redis'],
+      technologies: ['Angular', 'Symfony', 'RabbitMQ', 'Redis'],
       description: [
-        'Plateforme voyage temps réel : Système réservation global multi-zones avec paiement intégré',
-        'Intégration Stripe & PayPal : Paiements internationaux avec gestion des devises multiples',
-        'Cache distribué Redis : Optimisation 75% des temps de réponse sur les sessions de paiement',
-        'RabbitMQ : Files d\'attente fiables pour transactions financières internationales',
-        'Formation équipe : 3 jours Angular + APIs paiement pour 4 développeurs',
-        'Mentorat technique : Amélioration qualité code 40% avec bonnes pratiques Angular'
+        'Développement d\'une plateforme de voyage en temps réel',
+        'Conception d\'un système de réservation global multi-zones',
+        'Mise en place d\'un cache distribué avec Redis pour l\'optimisation des performances',
+        'Intégration de RabbitMQ pour la gestion des files d\'attente et la fiabilité des transactions',
+        'Déploiement et mise en production CI/CD',
+        'Formation technique en Angular pour montée en compétences d\'équipe'
       ],
       color: 'teal',
-      achievements: ['75% performance', 'Stripe + PayPal intégration', '40% qualité code', 'Formation équipe']
+      achievements: ['Système temps réel', 'Cache distribué Redis', 'CI/CD']
     },
     {
       title: 'Développeur Full Stack',
       company: 'Agence Inspire',
-      location: 'Manzah6, Tunisie',
-      period: 'Août 2021 - Sept. 2022',
-      technologies: ['Angular 11', 'Symfony', 'Flouci', 'Vue.js', 'WordPress', 'Nuxt.js'],
+      location: 'Manzah 6, Tunisie',
+      period: 'Juil. 2021 - Oct. 2022',
+      technologies: ['Angular', 'Symfony', 'Nuxt.js', 'Vue.js', 'Flouci', 'Stripe'],
       description: [
-        'Rate a Company (Angular 11, Symfony) : SaaS évaluation entreprises, 1000+ utilisateurs',
-        'Chorbane E-Commerce (WordPress, WooCommerce, Flouci) : Boutique avec paiement tunisien intégré',
-        'Fibourse Trading (Vue.js, Symfony) : Plateforme trading avec paiements temps réel',
-        'RoomBooking Pro (Vue.js, Symfony) : Réservation multi-établissements avec facturation en ligne',
-        'SuperStream Media (Nuxt.js, Drupal) : Streaming vidéo adaptatif avec abonnements Stripe',
-        'Inspire Quiz Engine (Twig, Symfony) : Moteur quiz gamifié avec paiements premium',
-        'Management : Encadrement 3 stagiaires avec formation Angular et APIs paiement',
-        'Gestion projets Agile : 100% respect deadlines'
+        'Solutions SaaS : Développement de rateacompany.com servant plus de 1000 utilisateurs actifs',
+        'Expertise Multi-Stack : Conception d\'applications de streaming adaptatif',
+        'Plateformes de trading temps réel avec flux de données en direct',
+        'Management : Encadrement technique de 3 stagiaires'
       ],
       color: 'blue',
-      achievements: ['7+ projets majeurs', '1000+ utilisateurs', 'Flouci & Stripe', '100% deadlines']
+      achievements: ['SaaS 1000+ utilisateurs', 'Streaming adaptatif', 'Trading temps réel']
     }
   ];
 
@@ -97,13 +93,12 @@ const Experience = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Parcours Senior en Angular et intégration d'APIs de paiement, leadership technique et innovations fintech.
+              Plus de 4 ans d'expertise en développement Full-Stack avec PHP Symfony et Angular,
+              spécialisé dans les architectures modernes et les applications critiques.
             </p>
           </div>
 
           <div className="relative mb-20">
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 md:transform md:-translate-x-px"></div>
-
             <div className="space-y-12">
               {experiences.map((exp, index) => (
                 <div
@@ -167,11 +162,6 @@ const Experience = () => {
                         ))}
                       </div>
                     </div>
-                  </div>
-
-                  <div className={`absolute left-0 md:left-1/2 w-8 h-8 rounded-full border-4 border-white shadow-lg transform md:-translate-x-1/2 ${
-                    exp.color === 'blue' ? 'bg-blue-500' : 'bg-teal-500'
-                  }`}>
                   </div>
                 </div>
               ))}
