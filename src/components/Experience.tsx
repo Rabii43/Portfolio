@@ -10,75 +10,77 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: 'Développeur Full Stack',
+      title: 'Développeur Full Stack Senior',
       company: 'Delta-Plus-Médical',
       location: 'Tunis, Tunisie',
       period: 'Nov. 2023 - Présent',
-      technologies: ['React', 'TypeScript', 'Symfony 6', 'PHP 8'],
+      technologies: ['Angular 17', 'TypeScript', 'Symfony 6', 'PHP 8', 'Stripe', 'Konnect'],
       description: [
-        'Architecture plateforme médicale : Conception système critique front React/back Symfony',
+        'Architecture plateforme médicale : Conception système critique front Angular/back Symfony',
+        'Intégration paiement : Passerelle Konnect et Stripe pour facturation médicale sécurisée',
         'APIs sécurisées : Développement REST garantissant l\'intégrité des données médicales',
-        'Migration technique : Transition stack moderne avec amélioration performances'
+        'Migration technique : Transition stack moderne Angular 17 avec signals et standalone components',
+        'Sécurité PCI-DSS : Conformité et audit des flux de paiement sensibles'
       ],
       color: 'blue',
-      achievements: ['Migration stack moderne', 'Système médical critique']
+      achievements: ['Migration Angular 17', 'Paiement médical sécurisé', 'Conformité PCI-DSS']
     },
     {
-      title: 'Développeur Full Stack',
+      title: 'Développeur Full Stack Senior',
       company: 'ENW-Consulting',
       location: 'Centre Urbain Nord, Tunisie',
       period: 'Oct. 2022 - Sept. 2023',
-      technologies: ['Angular 16', 'Symfony 6', 'RabbitMQ', 'Redis', 'Vue.js'],
+      technologies: ['Angular 16', 'Symfony 6', 'Stripe', 'PayPal', 'RabbitMQ', 'Redis'],
       description: [
-        'Plateforme voyage temps réel : Système réservation global multi-zones',
-        'Cache distribué Redis : Optimisation 75% des temps de réponse',
-        'RabbitMQ : Files d\'attente pour transactions internationales fiables',
-        'Formation équipe : 3 jours Angular pour 4 développeurs',
-        'Mentorat technique : Amélioration qualité code 40%'
+        'Plateforme voyage temps réel : Système réservation global multi-zones avec paiement intégré',
+        'Intégration Stripe & PayPal : Paiements internationaux avec gestion des devises multiples',
+        'Cache distribué Redis : Optimisation 75% des temps de réponse sur les sessions de paiement',
+        'RabbitMQ : Files d\'attente fiables pour transactions financières internationales',
+        'Formation équipe : 3 jours Angular + APIs paiement pour 4 développeurs',
+        'Mentorat technique : Amélioration qualité code 40% avec bonnes pratiques Angular'
       ],
       color: 'teal',
-      achievements: ['75% amélioration performance', '40% amélioration qualité code', 'Formation équipe technique']
+      achievements: ['75% performance', 'Stripe + PayPal intégration', '40% qualité code', 'Formation équipe']
     },
     {
       title: 'Développeur Full Stack',
       company: 'Agence Inspire',
       location: 'Manzah6, Tunisie',
       period: 'Août 2021 - Sept. 2022',
-      technologies: ['Angular 11', 'Symfony', 'Vue.js', 'WordPress', 'Nuxt.js'],
+      technologies: ['Angular 11', 'Symfony', 'Flouci', 'Vue.js', 'WordPress', 'Nuxt.js'],
       description: [
         'Rate a Company (Angular 11, Symfony) : SaaS évaluation entreprises, 1000+ utilisateurs',
-        'Chorbane E-Commerce (WordPress, WooCommerce) : Boutique complète avec paiement intégré',
-        'Ficodev Corporate (WordPress, PHP) : Site institutionnel < 2s chargement',
-        'SuperStream Media (Nuxt.js, Drupal) : App streaming vidéo adaptatif',
-        'Fibourse Trading (Vue.js, Symfony) : Plateforme trading temps réel',
-        'RoomBooking Pro (Vue.js, Symfony) : Réservation multi-établissements',
-        'Inspire Quiz Engine (Twig, Symfony) : Moteur quiz gamifié avec analytics',
-        'Management : Encadrement 3 stagiaires avec formation personnalisée',
+        'Chorbane E-Commerce (WordPress, WooCommerce, Flouci) : Boutique avec paiement tunisien intégré',
+        'Fibourse Trading (Vue.js, Symfony) : Plateforme trading avec paiements temps réel',
+        'RoomBooking Pro (Vue.js, Symfony) : Réservation multi-établissements avec facturation en ligne',
+        'SuperStream Media (Nuxt.js, Drupal) : Streaming vidéo adaptatif avec abonnements Stripe',
+        'Inspire Quiz Engine (Twig, Symfony) : Moteur quiz gamifié avec paiements premium',
+        'Management : Encadrement 3 stagiaires avec formation Angular et APIs paiement',
         'Gestion projets Agile : 100% respect deadlines'
       ],
-      color: 'purple',
-      achievements: ['7+ projets majeurs', '1000+ utilisateurs actifs', '100% respect deadlines']
+      color: 'blue',
+      achievements: ['7+ projets majeurs', '1000+ utilisateurs', 'Flouci & Stripe', '100% deadlines']
     }
   ];
 
   const distinctions = [
     {
       title: 'Compétition Mondiale de Design pour l\'Éducation du Futur',
-      achievement: '🥈 2ème place mondiale',
+      achievement: '2eme place mondiale',
       location: 'Beijing, Chine',
       date: '24-31 Décembre 2019',
       project: 'Projet beSafe : Application IoT connectant parents et enfants via montre intelligente'
     },
     {
       title: 'Compétition Nationale de Design',
-      achievement: '🥇 1ère place nationale',
+      achievement: '1ere place nationale',
       location: 'Kairouan, Tunisie',
       date: '22-24 Novembre 2019',
       project: 'Innovation dans l\'écosystème éducatif tunisien'
     },
     {
       title: 'Tunisian American Enterprise Fund',
-      achievement: '🥈 2ème place nationale',
+      achievement: '2eme place nationale',
       location: 'Kairouan, Tunisie',
       date: '14-15 Avril 2019',
       project: 'Programme d\'incubation Proxym IT - Innovations technologiques startup'
@@ -95,14 +97,13 @@ const Experience = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Un parcours professionnel riche en défis techniques, leadership et innovations.
+              Parcours Senior en Angular et intégration d'APIs de paiement, leadership technique et innovations fintech.
             </p>
           </div>
 
-          {/* Experience Timeline */}
           <div className="relative mb-20">
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 md:transform md:-translate-x-px"></div>
-            
+
             <div className="space-y-12">
               {experiences.map((exp, index) => (
                 <div
@@ -121,7 +122,7 @@ const Experience = () => {
                           {exp.period}
                         </div>
                       </div>
-                      
+
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <h4 className="font-semibold text-gray-700">{exp.company}</h4>
                         <div className="flex items-center text-sm text-gray-600 mt-1 sm:mt-0">
@@ -137,8 +138,7 @@ const Experience = () => {
                               key={techIndex}
                               className={`px-3 py-1 rounded-full text-xs font-medium ${
                                 exp.color === 'blue' ? 'bg-blue-100 text-blue-800' :
-                                exp.color === 'teal' ? 'bg-teal-100 text-teal-800' :
-                                'bg-purple-100 text-purple-800'
+                                'bg-teal-100 text-teal-800'
                               }`}
                             >
                               {tech}
@@ -151,9 +151,7 @@ const Experience = () => {
                         {exp.description.map((item, itemIndex) => (
                           <li key={itemIndex} className="flex items-start text-gray-700 text-sm">
                             <div className={`w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0 ${
-                              exp.color === 'blue' ? 'bg-blue-500' :
-                              exp.color === 'teal' ? 'bg-teal-500' :
-                              'bg-purple-500'
+                              exp.color === 'blue' ? 'bg-blue-500' : 'bg-teal-500'
                             }`}></div>
                             {item}
                           </li>
@@ -172,9 +170,7 @@ const Experience = () => {
                   </div>
 
                   <div className={`absolute left-0 md:left-1/2 w-8 h-8 rounded-full border-4 border-white shadow-lg transform md:-translate-x-1/2 ${
-                    exp.color === 'blue' ? 'bg-blue-500' :
-                    exp.color === 'teal' ? 'bg-teal-500' :
-                    'bg-purple-500'
+                    exp.color === 'blue' ? 'bg-blue-500' : 'bg-teal-500'
                   }`}>
                   </div>
                 </div>
@@ -182,12 +178,11 @@ const Experience = () => {
             </div>
           </div>
 
-          {/* Distinctions Section */}
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-2xl">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-800 mb-4 flex items-center justify-center">
                 <Award className="mr-3 text-yellow-600" size={32} />
-                Distinctions & Récompenses
+                Distinctions & Recompenses
               </h3>
               <p className="text-gray-600">Reconnaissance internationale pour l'innovation technologique</p>
             </div>
@@ -202,7 +197,7 @@ const Experience = () => {
                   style={{ transitionDelay: `${(index + 3) * 150}ms` }}
                 >
                   <div className="text-center mb-4">
-                    <div className="text-2xl mb-2">{distinction.achievement}</div>
+                    <div className="text-lg font-bold text-yellow-600 mb-2">{distinction.achievement}</div>
                     <h4 className="font-semibold text-gray-800 text-sm mb-2">{distinction.title}</h4>
                     <div className="text-xs text-gray-500 mb-1">{distinction.location}</div>
                     <div className="text-xs text-gray-500">{distinction.date}</div>

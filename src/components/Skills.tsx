@@ -8,30 +8,41 @@ const Skills = () => {
   });
 
   const skills = [
-    { name: 'React', level: 95, color: 'bg-blue-500' },
-    { name: 'Next.js', level: 90, color: 'bg-gray-800' },
-    { name: 'Angular', level: 95, color: 'bg-red-500' },
-    { name: 'TypeScript', level: 92, color: 'bg-blue-600' },
+    { name: 'Angular', level: 97, color: 'bg-red-500' },
+    { name: 'TypeScript', level: 95, color: 'bg-blue-600' },
+    { name: 'Symfony', level: 93, color: 'bg-gray-800' },
+    { name: 'PHP', level: 90, color: 'bg-blue-500' },
+    { name: 'Stripe API', level: 92, color: 'bg-teal-500' },
+    { name: 'PayPal SDK', level: 88, color: 'bg-blue-700' },
+    { name: 'Flouci / Konnect', level: 85, color: 'bg-orange-500' },
     { name: 'Vue.js', level: 88, color: 'bg-green-500' },
     { name: 'Nuxt.js', level: 85, color: 'bg-green-600' },
     { name: 'Node.js', level: 88, color: 'bg-green-700' },
-    { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
-    { name: 'Symfony', level: 92, color: 'bg-black' },
-    { name: 'PHP', level: 90, color: 'bg-purple-600' },
-    { name: 'HTML/CSS', level: 95, color: 'bg-orange-500' },
+    { name: 'HTML/CSS', level: 95, color: 'bg-orange-400' },
     { name: 'SCSS', level: 88, color: 'bg-pink-500' },
   ];
 
+  const paymentApis = [
+    { name: 'Stripe', detail: 'Webhooks, 3D Secure, Abonnements, Connect' },
+    { name: 'PayPal', detail: 'SDK JS, REST API, Paiements récurrents' },
+    { name: 'Flouci', detail: 'Intégration paiement tunisien, mobile money' },
+    { name: 'Konnect', detail: 'Passerelle BIAT, virements, wallets' },
+    { name: 'Paymee', detail: 'Paiement en ligne Tunisie, callback sécurisé' },
+    { name: 'Monetbil', detail: 'Mobile money Afrique, USSD, Orange Money' },
+  ];
+
   const tools = [
-    'Git & GitHub', 'Docker', 'CI/CD', 'Linux', 'WordPress', 'Drupal', 'Bootstrap',
-    'Vuetify', 'RabbitMQ', 'Redis', 'jQuery', 'Ajax', 'Twig',
-    'MySQL/PostgreSQL', 'Sass/SCSS', 'WooCommerce', 'API REST'
+    'Git & GitHub', 'Docker', 'CI/CD', 'Linux', 'NgRx', 'RxJS',
+    'RabbitMQ', 'Redis', 'WordPress', 'Drupal', 'Bootstrap',
+    'Vuetify', 'jQuery', 'Ajax', 'Twig',
+    'MySQL/PostgreSQL', 'Sass/SCSS', 'WooCommerce', 'API REST',
+    'PCI-DSS', 'OAuth 2.0', 'JWT', 'Webpack'
   ];
 
   const languages = [
-    { name: 'Arabe', level: 'Langue maternelle', flag: '🇹🇳' },
-    { name: 'Français', level: 'Courant (C1)', flag: '🇫🇷' },
-    { name: 'Anglais', level: 'Intermédiaire (B2)', flag: '🇺🇸' },
+    { name: 'Arabe', level: 'Langue maternelle', flag: 'TN' },
+    { name: 'Français', level: 'Courant (C1)', flag: 'FR' },
+    { name: 'Anglais', level: 'Intermédiaire (B2)', flag: 'US' },
   ];
 
   return (
@@ -44,8 +55,8 @@ const Skills = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Un ensemble de technologies et d'outils maîtrisés pour créer 
-              des solutions complètes et performantes.
+              Expert Angular et APIs de paiement, avec un ensemble complet de technologies
+              pour créer des solutions fintech robustes et performantes.
             </p>
           </div>
 
@@ -74,28 +85,47 @@ const Skills = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-8">Outils & Technologies</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-8">APIs de Paiement</h3>
+              <div className="space-y-3 mb-8">
+                {paymentApis.map((api, index) => (
+                  <div
+                    key={api.name}
+                    className={`bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 flex items-start ${
+                      inView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'
+                    }`}
+                    style={{ transitionDelay: `${index * 80}ms` }}
+                  >
+                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <div>
+                      <span className="font-semibold text-gray-800">{api.name}</span>
+                      <span className="text-gray-500 text-sm ml-2">— {api.detail}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Outils & Technologies</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-8">
                 {tools.map((tool, index) => (
                   <div
                     key={tool}
-                    className={`bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 text-center text-sm ${
+                    className={`bg-white p-2.5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 text-center text-xs ${
                       inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}
-                    style={{ transitionDelay: `${index * 50}ms` }}
+                    style={{ transitionDelay: `${index * 40}ms` }}
                   >
                     <span className="text-gray-700 font-medium">{tool}</span>
                   </div>
                 ))}
               </div>
 
-              <div className="mt-8 bg-white p-6 rounded-xl shadow-sm">
+              <div className="bg-white p-6 rounded-xl shadow-sm">
                 <h4 className="text-xl font-semibold text-gray-800 mb-6">Langues</h4>
                 <div className="space-y-4">
-                  {languages.map((lang, index) => (
+                  {languages.map((lang) => (
                     <div key={lang.name} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                       <div className="flex items-center">
-                        <span className="text-2xl mr-3">{lang.flag}</span>
+                        <span className="font-bold text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded mr-3">{lang.flag}</span>
                         <span className="font-medium text-gray-800">{lang.name}</span>
                       </div>
                       <span className="text-sm text-gray-600">{lang.level}</span>
@@ -104,28 +134,28 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className="mt-6 bg-gradient-to-r from-blue-500 to-purple-600 p-6 rounded-xl text-white">
+              <div className="mt-6 bg-gradient-to-r from-blue-600 to-teal-600 p-6 rounded-xl text-white">
                 <h4 className="text-xl font-semibold mb-4">Qualités Professionnelles</h4>
                 <ul className="space-y-2 text-blue-100">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Travail en équipe
+                    Architecture logicielle et code review
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Résistance au stress
+                    Leadership et mentorat technique
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Organisation
+                    Sécurité des paiements (PCI-DSS)
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Capacité d'adaptation
+                    Capacité d'adaptation et autonomie
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                    Autonomie
+                    Travail en équipe, organisation
                   </li>
                 </ul>
               </div>
