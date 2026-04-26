@@ -14,17 +14,16 @@ const Experience = () => {
       company: 'Delta-Plus-Médical',
       location: 'Tunis, Tunisie',
       period: 'Nov. 2023 - Présent',
-      technologies: ['Symfony 6', 'PHP 8', 'Angular', 'TypeScript', 'API REST', 'Redis', 'RabbitMQ', 'OpenRouter IA'],
+      technologies: ['Symfony 6', 'PHP 8', 'Angular', 'TypeScript', 'API REST', 'Redis', 'RabbitMQ'],
       description: [
-        'Conception d\'une plateforme médicale à haute disponibilité',
-        'Intégration et orchestration d\'APIs d\'intelligence artificielle via OpenRouter (multi-modèles NLP, génération de contenu)',
-        'Développement de chatbots intelligents avec gestion de contexte',
-        'Développement d\'APIs sécurisées pour la gestion de données médicales sensibles',
-        'Migration vers une architecture moderne, scalable et optimisation des performances applicatives',
-        'Tests & Qualité : PHPUnit, Jasmine, Karma, Postman | Performance : k6, JMeter, Lighthouse'
+        'Conception d\'une plateforme médicale critique à forte charge',
+        'Développement d\'APIs sécurisées pour la protection des données médicales sensibles',
+        'Optimisation des performances applicatives avec cache Redis et queues RabbitMQ',
+        'Migration d\'une application monolithique vers une architecture moderne et scalable',
+        'Tests et qualité : PHPUnit, Jasmine, Karma, Postman'
       ],
       color: 'blue',
-      achievements: ['IA & Chatbots OpenRouter', 'Plateforme médicale critique', 'Architecture scalable']
+      achievements: ['Plateforme médicale critique', 'APIs sécurisées', 'Architecture scalable']
     },
     {
       title: 'Développeur Full Stack',

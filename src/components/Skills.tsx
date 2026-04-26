@@ -9,7 +9,6 @@ const Skills = () => {
 
   const skills = [
     { name: 'Angular', level: 90, color: 'bg-red-500' },
-    { name: 'React', level: 85, color: 'bg-cyan-500' },
     { name: 'Symfony', level: 93, color: 'bg-gray-800' },
     { name: 'PHP', level: 95, color: 'bg-blue-500' },
     { name: 'TypeScript', level: 88, color: 'bg-blue-600' },
@@ -17,7 +16,7 @@ const Skills = () => {
     { name: 'Node.js', level: 85, color: 'bg-green-700' },
     { name: 'Git', level: 92, color: 'bg-orange-600' },
     { name: 'Docker', level: 85, color: 'bg-blue-400' },
-    { name: 'CI/CD', level: 80, color: 'bg-teal-500' },
+    { name: 'CI/CD', level: 80, color: 'bg-purple-500' },
   ];
 
   const paymentGateways = [
@@ -29,9 +28,8 @@ const Skills = () => {
 
   const tools = [
     'RxJS', 'NgRx', 'RabbitMQ', 'Redis', 'API REST', 'JWT', 'OAuth 2.0',
-    'OpenRouter', 'NLP / Chatbots', 'Express.js', 'PHPUnit', 'Jasmine', 'Karma',
-    'Postman', 'k6', 'JMeter', 'Lighthouse', 'MySQL', 'PostgreSQL', 'Linux',
-    'Twig', 'SCSS', 'Webpack', 'Vite'
+    'Express.js', 'PHPUnit', 'Jasmine', 'Karma', 'Postman', 'k6', 'JMeter', 'Lighthouse',
+    'MySQL', 'PostgreSQL', 'Linux', 'Twig', 'SCSS', 'Webpack', 'Vite'
   ];
 
   const languages = [
@@ -50,8 +48,8 @@ const Skills = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert PHP Symfony, Angular et React avec une maîtrise approfondie des technologies
-              backend, frontend et intelligence artificielle pour créer des applications web performantes et scalables.
+              Expert PHP Symfony et Angular avec une maîtrise approfondie des technologies
+              backend et frontend pour créer des applications web performantes et scalables.
             </p>
           </div>
 
