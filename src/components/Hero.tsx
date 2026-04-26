@@ -36,20 +36,22 @@ const Hero = () => {
         </p>
 
         <p className="text-lg md:text-xl mb-4 text-teal-200 animate-fade-in-delay font-medium">
-          Expert PHP Symfony &bull; Angular &bull; Passerelles de Paiement
+          Expert PHP Symfony &bull; Angular &bull; React &bull; IA & Chatbots
         </p>
 
         <p className="text-base mb-8 text-gray-200 max-w-3xl mx-auto animate-fade-in-delay-2 leading-relaxed">
           Plus de 4 ans d'expérience dans la conception et le développement de solutions web hautement scalables et sécurisées.
-          Spécialisé en architectures distribuées, je garantis des performances optimales et une intégrité totale des données sensibles.
+          Spécialisé en architectures distribuées et intégration d'intelligence artificielle, je garantis des performances optimales et une intégrité totale des données sensibles.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mb-8 animate-fade-in-delay-2">
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Angular</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">React</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Symfony 6</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">PHP 8</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">TypeScript</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Node.js</span>
+          <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">OpenRouter IA</span>
           <span className="bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-medium border border-white/20">Docker</span>
         </div>
 

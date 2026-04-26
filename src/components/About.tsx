@@ -19,8 +19,8 @@ const About = () => {
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Développeur Full-Stack Senior avec plus de 4 ans d'expertise dans la conception et le développement
-              d'applications web critiques. Expert PHP Symfony et Angular, spécialisé dans les architectures modernes
-              et les passerelles de paiement sécurisées.
+              d'applications web critiques. Expert PHP Symfony, Angular et React, spécialisé dans les architectures modernes,
+              l'intégration d'IA et les passerelles de paiement sécurisées.
             </p>
           </div>
 
@@ -32,9 +32,10 @@ const About = () => {
                 garantir des performances optimales et une intégrité totale des données sensibles.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Spécialisé en <strong>PHP Symfony</strong>, <strong>Angular</strong> et <strong>TypeScript</strong>,
-                je maîtrise les méthodologies agiles, les arquitectures distribuées et dispose d'une expertise
-                confirmée dans la migration d'applications monolithiques vers des solutions modernes.
+                Spécialisé en <strong>PHP Symfony</strong>, <strong>Angular</strong>, <strong>React</strong> et <strong>TypeScript</strong>,
+                je maîtrise les méthodologies agiles, les architectures distribuées et dispose d'une expertise
+                confirmée dans l'intégration d'APIs d'intelligence artificielle via OpenRouter et le développement
+                de chatbots intelligents avec gestion de contexte.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
@@ -53,39 +54,18 @@ const About = () => {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Angular
-                </span>
-                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
-                  TypeScript
-                </span>
-                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Stripe API
-                </span>
-                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
-                  PayPal SDK
-                </span>
-                <span className="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Flouci
-                </span>
-                <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Konnect
-                </span>
-                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Next.js
-                </span>
-                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Vue.js
-                </span>
-                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Node.js
-                </span>
-                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Symfony
-                </span>
-                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
-                  PHP
-                </span>
+                <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-medium">Angular</span>
+                <span className="bg-cyan-100 text-cyan-800 px-4 py-2 rounded-full text-sm font-medium">React</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">TypeScript</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">Symfony</span>
+                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">PHP</span>
+                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Node.js</span>
+                <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">OpenRouter IA</span>
+                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Stripe API</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">PayPal SDK</span>
+                <span className="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-medium">Flouci</span>
+                <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Konnect</span>
+                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Vue.js</span>
               </div>
             </div>
 
@@ -95,11 +75,11 @@ const About = () => {
                   <div className="bg-red-500 p-3 rounded-lg mr-4">
                     <Code className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">Expert PHP Symfony & Angular</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Expert PHP Symfony, Angular & React</h3>
                 </div>
                 <p className="text-gray-600">
                   Expertise approfondie en développement backend avec Symfony 6 et PHP 8,
-                  combinée à une maîtrise avancée d'Angular (composants standalone, signals, RxJS).
+                  combinée à une maîtrise avancée d'Angular (composants standalone, signals, RxJS) et React.
                 </p>
               </div>
 
@@ -121,11 +101,11 @@ const About = () => {
                   <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <Users className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800">Architecture Moderne</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">IA & Architecture Moderne</h3>
                 </div>
                 <p className="text-gray-600">
-                  Conception d'architectures scalables : migration monolithique vers microservices,
-                  cache distribué (Redis), message queue (RabbitMQ) et CI/CD.
+                  Intégration d'APIs d'intelligence artificielle via OpenRouter (multi-modèles NLP),
+                  développement de chatbots intelligents, architectures scalables avec Redis et RabbitMQ.
                 </p>
               </div>
 
